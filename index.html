@@ -29,7 +29,9 @@
           >
           <ul class="nav-list flex">
             <li>
-              <a class="nav-link link curent active" href="./index.html">Studio</a>
+              <a class="nav-link link curent active" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li>
               <a class="nav-link link" href="">Portfolio</a>
@@ -288,9 +290,9 @@
                   alt="foto Mark Guerrero"
                 />
                 <p class="portfolio-img-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task Manager
-                  App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                  Storage App
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-desc-wrapper">
@@ -305,9 +307,9 @@
                   alt="foto Tom Ford"
                 />
                 <p class="portfolio-img-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task Manager
-                  App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                  Storage App
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-desc-wrapper">
@@ -322,9 +324,9 @@
                   alt="foto Camila Garcia"
                 />
                 <p class="portfolio-img-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task Manager
-                  App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                  Storage App
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-desc-wrapper">
@@ -339,9 +341,9 @@
                   alt="foto Daniel Wilson"
                 />
                 <p class="portfolio-img-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task Manager
-                  App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                  Storage App
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-desc-wrapper">
@@ -356,9 +358,9 @@
                   alt="foto Camila Garcia"
                 />
                 <p class="portfolio-img-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task Manager
-                  App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                  Storage App
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-desc-wrapper">
@@ -373,9 +375,9 @@
                   alt="foto Daniel Wilson"
                 />
                 <p class="portfolio-img-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task Manager
-                  App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-                  Storage App
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-desc-wrapper">
@@ -400,7 +402,7 @@
           </p>
         </div>
         <div class="footer-social-wrapper">
-          <p class="footer-social-text">Social media</p>
+          <p class="footer-social-caption">Social media</p>
           <ul class="footer-social-list flex">
             <li class="footer-social-item">
               <a href="" class="footer-link flex">
@@ -432,48 +434,103 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscibe">
+          <p class="subscibe-caption">Subscribe</p>
+          <form name="subscribe-form" class="subscribe-form flex">
+            <label class="subscribe-form-field">
+              <input
+                class="subscribe-form-input"
+                type="email"
+                name="-subscribe-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-form-btn flex" type="submit">
+              Subscribe
+              <svg class="subscribe-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-sudscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
     <!-- Modal widow -->
     <div class="backdpor is-open">
-      <div class="modal ">
+      <div class="modal">
         <button class="modal-btn">
-          <svg class="modal-icon" width="8" height="8" aria-label="Modal close button">
+          <svg
+            class="modal-icon"
+            width="8"
+            height="8"
+            aria-label="Modal close button"
+          >
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
+
         <p class="caption">Leave your contacts and we will call you back</p>
+
         <form class="modal-form" name="order-service">
           <div class="form-wrapper">
             <label for="person_name" class="modal-label">Name</label>
-            <div class="overlay-input">
-              <input type="text" name="user-name" id="person_name" class="modal-input">
-              <svg class="icon-person" width="18" height="18">
+            <div class="modal-overlay-input">
+              <input
+                type="text"
+                name="user-name"
+                id="person_name"
+                class="modal-input"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-input"></use>
               </svg>
             </div>
           </div>
+          
           <div class="form-wrapper">
             <label for="person_phone" class="modal-label">Phone</label>
-            <div class="overlay-input">
-              <input type="tel" name="user-phone" id="person_phone" class="modal-input">
-              <svg class="icon-person" width="18" height="18">
+            <div class="modal-overlay-input">
+              <input
+                type="tel"
+                name="user-phone"
+                id="person_phone"
+                class="modal-input"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-input"></use>
               </svg>
             </div>
           </div>
+
           <div class="form-wrapper">
             <label for="person_email" class="modal-label">Email</label>
-            <div class="overlay-input">
-              <input type="email" name="user-email" id="person_email" class="modal-input">
-              <svg class="icon-person" width="18" height="18">
+            <div class="modal-overlay-input">
+              <input
+                type="email"
+                name="user-email"
+                id="person_email"
+                class="modal-input"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-input"></use>
               </svg>
             </div>
           </div>
+
+          <label for="user-coment" class="user-coment"> Comment </label>
+          <textarea
+            class="modal-form-massege"
+            name="user-coment"
+            id="user-coment"
+            placeholder="Text input"
+          >
+          </textarea>
+          <input type="checkbox" name="" id="">
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
-
