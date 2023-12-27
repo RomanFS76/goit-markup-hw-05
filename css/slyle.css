@@ -662,14 +662,6 @@ img {
 
 /* textarea */
 
-.modal-label-coment {
-  display: block;
-  color: #8e8f99;
-  font-size: 12px;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.48px;
-}
-
 .modal-coment {
   width: 100%;
   min-height: 120px;
