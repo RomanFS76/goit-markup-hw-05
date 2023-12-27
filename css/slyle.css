@@ -729,9 +729,7 @@ img {
   fill: transparent;
 
   cursor: pointer;
-  transition-property: background-color, background-image;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-label > .custom-checkbox {
