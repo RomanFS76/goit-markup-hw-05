@@ -475,12 +475,12 @@
 
         <form class="modal-form" name="order-service">
           <div class="form-wrapper">
-            <label for="person_name" class="modal-label">Name</label>
+            <label for="modal-name" class="modal-label">Name</label>
             <div class="modal-overlay-input">
               <input
                 type="text"
                 name="user-name"
-                id="person_name"
+                id="modal-name"
                 class="modal-input"
               />
               <svg class="modal-form-icon" width="18" height="24">
@@ -488,14 +488,14 @@
               </svg>
             </div>
           </div>
-          
+
           <div class="form-wrapper">
-            <label for="person_phone" class="modal-label">Phone</label>
+            <label for="modal-phone" class="modal-label">Phone</label>
             <div class="modal-overlay-input">
               <input
                 type="tel"
                 name="user-phone"
-                id="person_phone"
+                id="modal-phone"
                 class="modal-input"
               />
               <svg class="modal-form-icon" width="18" height="24">
@@ -505,12 +505,12 @@
           </div>
 
           <div class="form-wrapper">
-            <label for="person_email" class="modal-label">Email</label>
+            <label for="modal-email" class="modal-label">Email</label>
             <div class="modal-overlay-input">
               <input
                 type="email"
                 name="user-email"
-                id="person_email"
+                id="modal-email"
                 class="modal-input"
               />
               <svg class="modal-form-icon" width="18" height="24">
@@ -519,15 +519,27 @@
             </div>
           </div>
 
-          <label for="user-coment" class="user-coment"> Comment </label>
-          <textarea
-            class="modal-form-massege"
-            name="user-coment"
-            id="user-coment"
-            placeholder="Text input"
-          >
-          </textarea>
-          <input type="checkbox" name="" id="">
+          <div class="form-wrapper">
+            <label class="modal-label-coment" for="modal-coment"> Comment </label>
+            <textarea class="modal-coment" name="modal-coment" id="modal-coment" placeholder="Text input"></textarea>
+          </div>
+
+          <div class="form-wrapper">
+            <input
+              type="checkbox"
+              name="user-check"
+              id="modal-checkbox"
+              class="modal-checkbox-input visually-hidden"
+            />
+            <label for="modal-checkbox" class="modal-checkbox-label flex">
+              <span class="checkbox-text">
+                I accept the terms and conditions of the
+              </span>
+              <a href="#" class="checkbox-link">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="modal-submit" type="submit">Send</button>
         </form>
       </div>
     </div>
