@@ -660,7 +660,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Modal modal-coment */
+/* textarea */
 
 .modal-label-coment {
   display: block;
@@ -676,6 +676,8 @@ img {
 
   padding: 8px 16px;
 
+  outline: transparent;
+
   font-size: 12px;
   line-height: 1.17;
 
@@ -683,8 +685,8 @@ img {
 
   resize: none;
   color: rgba(46, 47, 66, 0.4);
-  outline: none;
-  background-color: transparent;
+  
+  
 
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -714,7 +716,7 @@ img {
   align-items: center;
 }
 
-.custom-checkbox::before {
+.custom-checkbox {
   display: inline-flex;
   content: '';
   height: 16px;
@@ -732,7 +734,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-label > .custom-checkbox::before {
+.modal-checkbox-input:checked + .modal-checkbox-label > .custom-checkbox {
   fill:#F4F4FD;
   border:none;
   background-color:#404bbf;
