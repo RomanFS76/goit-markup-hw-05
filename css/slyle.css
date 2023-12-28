@@ -654,6 +654,9 @@ img {
   position: absolute;
   top: 50%;
   left: 16px;
+
+  fill: #2E2F42;
+
   transform: translateY(-50%);
   transition-property: fill;
   transition-duration: 250ms;
@@ -692,6 +695,7 @@ img {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.48px;
+  color: #2E2F4266;
 }
 
 .modal-coment:focus {
@@ -711,17 +715,25 @@ img {
 .custom-checkbox {
   display: inline-flex;
   content: '';
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 8px;
+
+  fill: transparent;
+  
   height: 16px;
   width: 16px;
+
   border: 1px solid rgba(46, 47, 66, 0.4);  
   border-radius: 2px;
 
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-checkbox-input:focus + .modal-checkbox-label  > .custom-checkbox {
+  border-color: #4D5AE5;
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-label > .custom-checkbox {
